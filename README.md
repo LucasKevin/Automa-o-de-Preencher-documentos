@@ -33,10 +33,25 @@ Abaixo está um exemplo de estrutura do projeto:
 
 ## Automação-de-Preencher-Documentos/
 │
-├── declaracao_ICMS.docx  # Modelo de documento
-├── preenchimento_doc.py  # Script principal
-├── requirements.txt      # Arquivo de dependências
-└── README.md             # Este arquivo
+├── index.py
+├── termo_notebook.py
+├── termo_notebook.docx
+├── termo_headset.py
+├── termo_headset.docx
+├── isencao_NF.py
+├── isencao_ICMS.py
+├── isencao_DANFe.py
+│
+├── Declaração isenção DANFe - DHL preenchido.docx
+├── declaracao_ICMS - preenchido.docx
+├── declaracao_ICMS.docx
+├── declaracao_NF - preenchido.docx
+├── declaracao_NF.docx
+├── declaração isencao DANFe - DHL.docx
+├── headset_preenchido.docx
+├── termo notebook_preenchido.docx
+│
+└── README.md
 
 ## Autor
 Lucas Kevin
