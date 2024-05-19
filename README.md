@@ -1,63 +1,43 @@
-<title>README - Automa-o-de-Preencher-Documentos</title>
+### Automação de Preencher Documentos
 
-<h1>Automa-o-de-Preencher-Documentos</h1>
+## Descrição
+Este projeto fornece uma interface gráfica para preencher automaticamente campos em um documento Word (.docx) e convertê-lo para PDF. É útil para automatizar a criação de documentos com informações repetitivas.
 
-    <h2>Descrição</h2>
+## Requisitos
+Antes de executar o código, certifique-se de ter o Python instalado (qualquer versão).
 
-    <p>Este projeto fornece uma interface gráfica para preencher automaticamente campos em um documento Word (.docx) e
-        convertê-lo para PDF. É útil para automatizar a criação de documentos com informações repetitivas.</p>
+## Instalação
+Para instalar as dependências necessárias, siga os passos abaixo:
 
-    <h2>Requisitos</h2>
+Abra o prompt de comando.
+Navegue até o diretório onde o arquivo requirements.txt está localizado.
+Execute o seguinte comando:
 
-    <p>Antes de executar o código, certifique-se de ter o Python instalado (qualquer versão).</p>
+pip install -r requirements.txt
 
-    <h2>Instalação</h2>
+## Utilização
+Execute o script principal.
+Preencha os campos necessários na interface gráfica.
+Clique em "Preencher e Salvar" para gerar o documento preenchido e convertido para PDF.
 
-    <p>Para instalar as dependências necessárias, siga os passos abaixo:</p>
+## Dependências
+As principais dependências necessárias para este projeto são:
 
-    <ol>
-        <li>Abra o prompt de comando.</li>
-        <li>Navegue até o diretório onde o arquivo <code>requirements.txt</code> está localizado.</li>
-        <li>Execute o seguinte comando:</li>
-    </ol>
+python-docx==0.8.11 (Para manipulação de arquivos .docx)
+docx2pdf==0.1.8 (Para conversão de arquivos .docx para .pdf)
+Certifique-se de que estas dependências estejam incluídas no seu arquivo requirements.txt.
 
-    <pre><code>pip install -r requirements.txt</code></pre>
+## Estrutura do Projeto
+Abaixo está um exemplo de estrutura do projeto:
 
-    <h2>Utilização</h2>
 
-    <ol>
-        <li>Execute o script principal.</li>
-        <li>Preencha os campos necessários na interface gráfica.</li>
-        <li>Clique em "Preencher e Salvar" para gerar o documento preenchido e convertido para PDF.</li>
-    </ol>
+## Automação-de-Preencher-Documentos/
+│
+├── declaracao_ICMS.docx  # Modelo de documento
+├── preenchimento_doc.py  # Script principal
+├── requirements.txt      # Arquivo de dependências
+└── README.md             # Este arquivo
 
-    <h2>Dependências</h2>
-
-    <p>As principais dependências necessárias para este projeto são:</p>
-
-    <ul>
-        <li><code>python-docx==0.8.11</code> (Para manipulação de arquivos .docx)</li>
-        <li><code>docx2pdf==0.1.8</code> (Para conversão de arquivos .docx para .pdf)</li>
-    </ul>
-
-    <p>Certifique-se de que estas dependências estejam incluídas no seu arquivo <code>requirements.txt</code>.</p>
-
-    <h2>Estrutura do Projeto</h2>
-
-    <p>Abaixo está um exemplo de estrutura do projeto:</p>
-
-    <pre>
-        <code>Automa-o-de-Preencher-Documentos/
-        ├── declaracao_ICMS.docx  # Modelo de documento
-        ├── preenchimento_doc.py  # Script principal
-        ├── requirements.txt      # Arquivo de dependências
-        └── README.md             # Este arquivo
-        </code>
-    </pre>
-
-    <h2>Autor</h2>
-
-    <ul>
-        <li>Seu Nome</li>
-        <li>Contato: seu-email@example.com</li>
-    </ul>
+## Autor
+Lucas Kevin
+Contato: lucaskevin455@gmail.com
