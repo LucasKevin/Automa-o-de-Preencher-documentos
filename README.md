@@ -30,29 +30,35 @@ docx2pdf==0.1.8 (Para conversão de arquivos .docx para .pdf)
 
 ## Automação-de-Preencher-Documentos/
 
-│
-├── index.py
-├── termo_notebook.py
-├── termo_notebook.docx
-├── termo_headset.py
-├── termo_headset.docx
-├── isencao_NF.py
-├── isencao_ICMS.py
-├── isencao_DANFe.py
-│
-├── documentos_preenchidos/
-│   ├── Declaração isenção DANFe - DHL preenchido.docx
-│   ├── declaracao_ICMS - preenchido.docx
-│   ├── declaracao_NF - preenchido.docx
-│   ├── headset_preenchido.docx
-│   ├── termo notebook_preenchido.docx
-│
-├── documentos/
-│   ├── declaracao_ICMS.docx
-│   ├── declaracao_NF.docx
-│   ├── declaração isencao DANFe - DHL.docx
-│
-└── README.md
+# Estrutura do Repositório
+
+### Arquivos Python
+- `index.py`
+- `termo_notebook.py`
+- `termo_headset.py`
+- `isencao_NF.py`
+- `isencao_ICMS.py`
+- `isencao_DANFe.py`
+
+### Documentos
+- `termo_notebook.docx`
+- `termo_headset.docx`
+
+### Documentos Preenchidos
+- `Declaração isenção DANFe - DHL preenchido.docx`
+- `declaracao_ICMS - preenchido.docx`
+- `declaracao_NF - preenchido.docx`
+- `headset_preenchido.docx`
+- `termo notebook_preenchido.docx`
+
+### Documentos em Branco
+- `declaracao_ICMS.docx`
+- `declaracao_NF.docx`
+- `declaração isencao DANFe - DHL.docx`
+
+### Outros
+- `README.md`
+
 
 ## Autor
 Lucas Kevin
